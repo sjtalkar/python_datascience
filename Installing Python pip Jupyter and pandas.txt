@@ -1,26 +1,28 @@
 Installing Python
 
-Download Pthon latest version
+a) Download Python latest version
+b) Make sure to check the check box to add it to the PATH
 
 Run command prompt as administrator
 In command line test by typing
 
 python
 
+Once confirmed, type:
 exit()
 
 
-test by typing pip --version
+TEST pip installation by typing pip --version
 
 
-pip20 install --upgrade pip
+If you need to upgrade pip
+pip install --upgrade pip
 
 
 TO INSTALL JUPYTER
 pip install jupyter
 
-
-Error caused Visual C++ 14 error
+If you run into Error caused Visual C++ 14 error, upgrade all setup tools
 
 pip install -- upgrade setuptools
 
@@ -36,3 +38,16 @@ IPython 7.12.0 -- An enhanced Interactive Python. Type '?' for help.
 
 In [1]:    
 
+Above show we are in Jupyter notebook
+
+
+Type to get out of command line run of Jupyter with
+exit()
+
+
+
+To Launch Jupyter
+
+Type at command prompt:
+
+jupyter notebook
