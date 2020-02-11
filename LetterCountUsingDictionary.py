@@ -27,7 +27,7 @@ for char in stri:
 print (char_d)    
  
  
- d = {'a': 194, 'b': 54, 'c':34, 'd': 44, 'e': 312, 'full':31}
+d = {'a': 194, 'b': 54, 'c':34, 'd': 44, 'e': 312, 'full':31}
 
 # initialize variable best_key_so_far to be the first key in d
 max_value = 0
