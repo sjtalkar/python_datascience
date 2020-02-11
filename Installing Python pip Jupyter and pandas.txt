@@ -8,6 +8,14 @@ In command line test by typing
 
 python
 
+
+RUNNING A PYTHON PROGRAM
+Change directory to the folder containing your python program
+Type:
+
+python.exe <nameofpythonpgm.py> 
+
+
 Once confirmed, type:
 exit()
 
@@ -51,3 +59,71 @@ To Launch Jupyter
 Type at command prompt:
 
 jupyter notebook
+
+
+This will create
+
+http://localhost:8888/notebooks/Untitled.ipynb?kernel_name=python3
+
+
+Click New on the Right hand side and you will have the [] prompt
+
+
+TO INSTALL PANDAS
+pip install pandas
+
+Successfully installed numpy-1.18.1 pandas-1.0.1 pytz-2019.3
+
+
+
+
+Now in the Code area of Jupyter you can place the entire Python Script and hit Run
+
+
+
+TO VERIFY WHICH FOLDER IS CURRENT PATH IN JUPYTER
+
+Type: pwd in jupyter code window and run
+
+'C:\\WINDOWS\\system32'
+
+
+TO CHANGE DIRECTORY (for windows)
+
+cd C:\\PYTHONDATASCIENCE
+
+
+pwd
+'C:\\PYTHONDATASCIENCE'
+
+
+The import of the csv file did not work. What did work is:
+
+STEP 1: pd.read_csv(r"C:\PYTHONDATASCIENCE\cartwheeldata.csv") 
+
+
+STEP 2:
+type(df)
+pandas.core.frame.DataFrame
+
+
+STEP 3:
+
+df.head
+df.head
+<bound method NDFrame.head of    ID  Age Gender  GenderGroup Glasses  GlassesGroup  Height  Wingspan  \
+0   1   56      F            1       Y             1      62        61   
+1   2   26      F            1       Y             1      62        60   
+
+   CWDistance Complete  CompleteGroup  Score  
+0          79        Y              1      7  
+
+DEBUGGING IN JUPYTER
+https://www.youtube.com/watch?v=7LFBmopELuU
+
+In a new cell 
+%debug
+
+
+JUPYTER TIPS AND TRICKS
+https://www.youtube.com/watch?v=2eCHD6f_phE

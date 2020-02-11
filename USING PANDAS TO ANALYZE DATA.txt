@@ -1,0 +1,87 @@
+USING PANDAS----------------------------
+
+
+
+CREATE A DATAFRAME
+pd.read_csv to create a dataframe from a csvList
+
+Use df.columns to list out the columns in the dataframe
+
+Use df.describe which is equivalent of SELECT in SQL
+
+Use df.dtypes to get datatypes of the columns
+
+TO ACCESS ONE COLUMN's DATA (ID IS IMPLIED IN THE OUTPUT)
+
+df['Height']
+0    62
+1    62
+Name: Height, dtype: int64
+
+TO ACCESS ONE ROW's DATA (ID IS IMPLIED IN THE OUTPUT)
+
+
+df.iloc[1]  --- O based index 
+.iloc()¶
+.iloc() is integer based slicing, whereas .loc() used labels/column names. Here are some examples:
+
+
+ID                1
+Age              56
+Gender            F
+GenderGroup       1
+Glasses           Y
+GlassesGroup      1
+Height           62
+Wingspan         61
+CWDistance       79
+Complete          Y
+CompleteGroup     1
+Score             7
+Name: 0, dtype: object
+
+
+
+USING SELECT LISTS AND ROW FILTERS
+
+# Return all observations of CWDistance
+
+.loc
+df.loc[:,['Age', 'Gender', 'Wingspan']]
+Age	Gender	Wingspan
+0	56	F	61
+1	26	F	60
+
+# Select all rows for multiple columns, ["CWDistance", "Height", "Wingspan"]
+df.loc[:,["CWDistance", "Height", "Wingspan"]]
+
+# Select few rows for multiple columns, ["CWDistance", "Height", "Wingspan"]
+df.loc[:9, ["CWDistance", "Height", "Wingspan"]]
+
+# Select range of rows for all columns
+df.loc[10:15]
+
+
+GROUP BY AND UNIQUE values
+
+df.groupby(['Gender','GenderGroup']).size()
+Gender  GenderGroup
+F       1              12
+M       2              13
+dtype: int64
+
+
+
+
+
+### Cheatsheets and References
+
+There are a variety of one-pagers and cheat-sheets available for Python that summarize the language in a few simple pages. These resources tend to be more aimed at someone who knows the language, or has experience in the language, but would like a refresher course in how the language works. 
+
+* [Cheatsheet for Numpy](https://www.datacamp.com/community/blog/python-numpy-cheat-sheet#gs.AK5ZBgE)
+* [Cheatsheet for Datawrangling](https://www.datacamp.com/community/blog/pandas-cheat-sheet-python#gs.HPFoRIc)
+* [Cheatsheet for Pandas](https://www.datacamp.com/community/blog/python-pandas-cheat-sheet#gs.oundfxM)
+* [Cheatsheet for SciPy](https://www.datacamp.com/community/blog/python-scipy-cheat-sheet#gs.JDSg3OI)
+* [Cheatsheet for Matplotlib](https://www.datacamp.com/community/blog/python-matplotlib-cheat-sheet#gs.uEKySpY)
+
+
