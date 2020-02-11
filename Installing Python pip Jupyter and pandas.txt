@@ -1,0 +1,38 @@
+Installing Python
+
+Download Pthon latest version
+
+Run command prompt as administrator
+In command line test by typing
+
+python
+
+exit()
+
+
+test by typing pip --version
+
+
+pip20 install --upgrade pip
+
+
+TO INSTALL JUPYTER
+pip install jupyter
+
+
+Error caused Visual C++ 14 error
+
+pip install -- upgrade setuptools
+
+
+Type the below to check installation of jupyter
+
+ipython
+
+C:\WINDOWS\system32>ipython
+Python 3.8.1 (tags/v3.8.1:1b293b6, Dec 18 2019, 22:39:24) [MSC v.1916 32 bit (Intel)]
+Type 'copyright', 'credits' or 'license' for more information
+IPython 7.12.0 -- An enhanced Interactive Python. Type '?' for help.
+
+In [1]:    
+
