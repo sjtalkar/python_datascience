@@ -1,0 +1,29 @@
+TALKING ABOUT DATA
+
+
+1) Categorical:  Bins/Buckets
+2) Quantitative -- Numbers can be assigned like height weight length...
+    
+	Discreet 
+	Continuous
+
+
+
+TALKING ABOUT HISTOGRAMS
+Shape: Bell shaped/Right Skewed/Left Skewed distribution
+	   Humps or number of bell curves: Uni-modal distribution. bi-modal distribution	
+
+Center:
+
+     Median : is the venter of the heavily populated postion of the histogram
+	 Bell shaped - Mean and median will be the same
+	 Left skewed Mean(will be pulled to the left) and so will be less that Median
+     Right skewed Mean(will be pulled to the right) and so will be more that Median
+ 
+
+Range:
+
+Outliers: Yes
+
+
+Concatenate into one sentence summary
