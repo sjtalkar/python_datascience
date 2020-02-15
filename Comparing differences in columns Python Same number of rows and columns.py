@@ -26,3 +26,33 @@ print (df1)
 # 1     Phone     800     800         True           0
 # 2   Printer     200     300        False        -100
 # 3      Desk     350     350         True           0
+
+import pandas as pa
+import seaborn as sns # For plotting
+import matplotlib.pyplot as plt
+tips_data = pa.read_csv("C:\\PYTHONDATASCIENCE\\tips.csv")
+tips_data
+tips_data.head()
+
+#Find the unique values of a column
+tips_data.time.value_counts()
+
+#Check to see if we have any NULLS in column "time"
+#pa.isnull(tips_data.time).sum()
+
+#Decoding an  code or a value  into user friedly literal
+tips_data["time"] = tips_data.time.replace({"Dinner": "Dinner After 8 PM", "Lunch": "Lunch After 11 AM"})
+tips_data.time.value_counts()
+
+
+#Another example RIAGENDRx is a column in the dataframe da
+#da["RIAGENDRx"] = da.RIAGENDR.replace({1: "Male", 2: "Female"})
+
+
+#  
+a["DMDEDUC2x"] = da.DMDEDUC2x.fillna("Missing")
+x = da.DMDEDUC2x.value_counts()
+x / x.sum()
+
+#Ignore nulls before getting mean median
+da.BMXWT.dropna().describe()

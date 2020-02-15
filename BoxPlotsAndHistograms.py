@@ -96,3 +96,10 @@ sns.boxplot(x = tips_data["tip"], y = tips_data["day"])
 g = sns.FacetGrid(tips_data, row = "day")
 g = g.map(plt.hist, "tip")
 plt.show()
+
+
+
+# Frequency tables
+# The value_counts method can be used to determine the number of times that each distinct value of a variable occurs in a data set. In statistical terms, this is the "frequency distribution" of the variable. 
+
+da.BMXWT.dropna().describe()
