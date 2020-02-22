@@ -1,0 +1,36 @@
+DEBUG:root:This message should go to the log fileAn exception of type list.remove(x): x not in list occurred <class 'ValueError'>
+DEBUG:root:This message should go to the log fileAn exception of type list.remove(x): x not in list occurred <class 'ValueError'>
+DEBUG:root:This message should go to the log fileAn exception of type list.remove(x): x not in list occurred <class 'ValueError'>
+DEBUG:root:This message should go to the log fileAn exception of type list.remove(x): x not in list occurred <class 'ValueError'>
+INFO:root:So should thisAn exception of type list.remove(x): x not in list occurred <class 'ValueError'>
+WARNING:root:And this, tooAn exception of type list.remove(x): x not in list occurred <class 'ValueError'>
+DEBUG:root:This message should go to the log fileAn exception of type list.remove(x): x not in list occurred <class 'ValueError'>
+INFO:root:So should thisAn exception of type list.remove(x): x not in list occurred <class 'ValueError'>
+WARNING:root:And this, tooAn exception of type list.remove(x): x not in list occurred <class 'ValueError'>
+DEBUG:root:This message should go to the log file
+INFO:root:So should this
+WARNING:root:And this, too
+WARNING:root:is when this event was logged.
+DEBUG:root:This message should go to the log file
+INFO:root:So should this
+WARNING:root:And this, too
+WARNING:root:is when this event was logged.
+DEBUG:root:This message should go to the log file
+INFO:root:So should this
+WARNING:root:And this, too
+WARNING:root:is when this event was logged.
+DEBUG:root:This message should go to the log file
+INFO:root:So should this
+WARNING:root:And this, too
+WARNING:root:is when this event was logged.
+DEBUG:root:This message should go to the log file
+INFO:root:So should this
+WARNING:root:And this, too
+WARNING:root:is when this event was logged.
+INFO:root:is when this event was logged.
+INFO:root:is when this event was logged.
+INFO:root:is when this event was logged.
+INFO:root:is when this event was logged.
+DEBUG:root:This message should go to the log fileAn exception of type list.remove(x): x not in list occurred <class 'ValueError'>
+INFO:root:So should thisAn exception of type list.remove(x): x not in list occurred <class 'ValueError'>
+WARNING:root:And this, tooAn exception of type list.remove(x): x not in list occurred <class 'ValueError'>

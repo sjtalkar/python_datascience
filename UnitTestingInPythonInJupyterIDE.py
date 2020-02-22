@@ -1,6 +1,18 @@
 # Unit Testing in Python
 
+
+# Before we write code, we have in mind what it should do, but those thoughts may be a little vague.
+# Writing down test cases forces us to be more concrete about what should happen.
+ 
+# In larger software projects, the set of test cases can be run every time a change is made to the code base. Unit tests check that small bits of code are correctly implemented.
+# Functional tests check that larger chunks of code work correctly.  
+ 
+# Python provides a statement called assert.
+# Following the word assert there will be a python expression.
+# If that expression evaluates to the Boolean False, then the interpreter will raise a runtime error.
+# If the expression evaluates to True, then nothing happens and the execution goes on to the next line of code. 
 # Use parent class unittest.TestCase
+
 class TestStringMethods(unittest.TestCase):
 
     def test_upper(self):

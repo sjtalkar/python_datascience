@@ -1,0 +1,11 @@
+Creating scaatter plot apps with Pearson corelation
+The corelation is positive or negative depending on the slope
+The number ratio is closer to 1 or negative 1 as the corelation gets stronger
+
+https://markkurzejaumich.shinyapps.io/bivariate_analysis/
+
+To create your own choose Bi-Var normal 
+Use default data set, 
+
+Slide the corelation slider
+Click Use default data set again

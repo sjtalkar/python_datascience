@@ -1,0 +1,156 @@
+INFO:root:is when this event was logged.
+INFO:root:is when this event was logged.
+INFO:root:is when this event was logged.
+INFO:root:is when this event was logged.
+INFO:root:is when this event was logged.
+2020-02-20 14:57:14,004 - root - INFO - is when this event was logged.
+INFO:root:is when this event was logged.
+2020-02-20 14:57:15,147 - root - INFO - is when this event was logged.
+2020-02-20 14:57:15,147 - root - INFO - is when this event was logged.
+INFO:root:is when this event was logged.
+2020-02-20 14:57:59,312 - root - INFO - is when this event was logged.
+2020-02-20 14:57:59,312 - root - INFO - is when this event was logged.
+2020-02-20 14:57:59,312 - root - INFO - is when this event was logged.
+INFO:root:An exception of type list.remove(x): x not in list occurred <class 'ValueError'>
+2020-02-20 14:57:59,318 - root - INFO - An exception of type list.remove(x): x not in list occurred <class 'ValueError'>
+2020-02-20 14:57:59,318 - root - INFO - An exception of type list.remove(x): x not in list occurred <class 'ValueError'>
+2020-02-20 14:57:59,318 - root - INFO - An exception of type list.remove(x): x not in list occurred <class 'ValueError'>
+WARNING:root:An exception of type list.remove(x): x not in list occurred <class 'ValueError'>
+2020-02-20 14:57:59,319 - root - WARNING - An exception of type list.remove(x): x not in list occurred <class 'ValueError'>
+2020-02-20 14:57:59,319 - root - WARNING - An exception of type list.remove(x): x not in list occurred <class 'ValueError'>
+2020-02-20 14:57:59,319 - root - WARNING - An exception of type list.remove(x): x not in list occurred <class 'ValueError'>
+INFO:root:is when this event was logged.
+2020-02-20 15:04:44,774 - root - INFO - is when this event was logged.
+2020-02-20 15:04:44,774 - root - INFO - is when this event was logged.
+2020-02-20 15:04:44,774 - root - INFO - is when this event was logged.
+2020-02-20 15:04:44,774 - root - INFO - is when this event was logged.
+INFO:root:An exception of type list.remove(x): x not in list occurred <class 'ValueError'>
+2020-02-20 15:04:44,774 - root - INFO - An exception of type list.remove(x): x not in list occurred <class 'ValueError'>
+2020-02-20 15:04:44,774 - root - INFO - An exception of type list.remove(x): x not in list occurred <class 'ValueError'>
+2020-02-20 15:04:44,774 - root - INFO - An exception of type list.remove(x): x not in list occurred <class 'ValueError'>
+2020-02-20 15:04:44,774 - root - INFO - An exception of type list.remove(x): x not in list occurred <class 'ValueError'>
+WARNING:root:An exception of type list.remove(x): x not in list occurred <class 'ValueError'>
+2020-02-20 15:04:44,775 - root - WARNING - An exception of type list.remove(x): x not in list occurred <class 'ValueError'>
+2020-02-20 15:04:44,775 - root - WARNING - An exception of type list.remove(x): x not in list occurred <class 'ValueError'>
+2020-02-20 15:04:44,775 - root - WARNING - An exception of type list.remove(x): x not in list occurred <class 'ValueError'>
+2020-02-20 15:04:44,775 - root - WARNING - An exception of type list.remove(x): x not in list occurred <class 'ValueError'>
+INFO:root:is when this event was logged.
+2020-02-20 15:05:51,168 - root - INFO - is when this event was logged.
+2020-02-20 15:05:51,168 - root - INFO - is when this event was logged.
+2020-02-20 15:05:51,168 - root - INFO - is when this event was logged.
+2020-02-20 15:05:51,168 - root - INFO - is when this event was logged.
+2020-02-20 15:05:51,168 - root - INFO - is when this event was logged.
+INFO:root:An exception of type list.remove(x): x not in list occurred <class 'ValueError'>
+2020-02-20 15:05:51,170 - root - INFO - An exception of type list.remove(x): x not in list occurred <class 'ValueError'>
+2020-02-20 15:05:51,170 - root - INFO - An exception of type list.remove(x): x not in list occurred <class 'ValueError'>
+2020-02-20 15:05:51,170 - root - INFO - An exception of type list.remove(x): x not in list occurred <class 'ValueError'>
+2020-02-20 15:05:51,170 - root - INFO - An exception of type list.remove(x): x not in list occurred <class 'ValueError'>
+2020-02-20 15:05:51,170 - root - INFO - An exception of type list.remove(x): x not in list occurred <class 'ValueError'>
+WARNING:root:An exception of type list.remove(x): x not in list occurred <class 'ValueError'>
+2020-02-20 15:05:51,172 - root - WARNING - An exception of type list.remove(x): x not in list occurred <class 'ValueError'>
+2020-02-20 15:05:51,172 - root - WARNING - An exception of type list.remove(x): x not in list occurred <class 'ValueError'>
+2020-02-20 15:05:51,172 - root - WARNING - An exception of type list.remove(x): x not in list occurred <class 'ValueError'>
+2020-02-20 15:05:51,172 - root - WARNING - An exception of type list.remove(x): x not in list occurred <class 'ValueError'>
+2020-02-20 15:05:51,172 - root - WARNING - An exception of type list.remove(x): x not in list occurred <class 'ValueError'>
+INFO:root:is when this event was logged.
+2020-02-20 15:05:52,595 - root - INFO - is when this event was logged.
+2020-02-20 15:05:52,595 - root - INFO - is when this event was logged.
+2020-02-20 15:05:52,595 - root - INFO - is when this event was logged.
+2020-02-20 15:05:52,595 - root - INFO - is when this event was logged.
+2020-02-20 15:05:52,595 - root - INFO - is when this event was logged.
+2020-02-20 15:05:52,595 - root - INFO - is when this event was logged.
+INFO:root:An exception of type list.remove(x): x not in list occurred <class 'ValueError'>
+2020-02-20 15:05:52,598 - root - INFO - An exception of type list.remove(x): x not in list occurred <class 'ValueError'>
+2020-02-20 15:05:52,598 - root - INFO - An exception of type list.remove(x): x not in list occurred <class 'ValueError'>
+2020-02-20 15:05:52,598 - root - INFO - An exception of type list.remove(x): x not in list occurred <class 'ValueError'>
+2020-02-20 15:05:52,598 - root - INFO - An exception of type list.remove(x): x not in list occurred <class 'ValueError'>
+2020-02-20 15:05:52,598 - root - INFO - An exception of type list.remove(x): x not in list occurred <class 'ValueError'>
+2020-02-20 15:05:52,598 - root - INFO - An exception of type list.remove(x): x not in list occurred <class 'ValueError'>
+WARNING:root:An exception of type list.remove(x): x not in list occurred <class 'ValueError'>
+2020-02-20 15:05:52,599 - root - WARNING - An exception of type list.remove(x): x not in list occurred <class 'ValueError'>
+2020-02-20 15:05:52,599 - root - WARNING - An exception of type list.remove(x): x not in list occurred <class 'ValueError'>
+2020-02-20 15:05:52,599 - root - WARNING - An exception of type list.remove(x): x not in list occurred <class 'ValueError'>
+2020-02-20 15:05:52,599 - root - WARNING - An exception of type list.remove(x): x not in list occurred <class 'ValueError'>
+2020-02-20 15:05:52,599 - root - WARNING - An exception of type list.remove(x): x not in list occurred <class 'ValueError'>
+2020-02-20 15:05:52,599 - root - WARNING - An exception of type list.remove(x): x not in list occurred <class 'ValueError'>
+INFO:root:is when this event was logged.
+2020-02-20 15:05:54,878 - root - INFO - is when this event was logged.
+2020-02-20 15:05:54,878 - root - INFO - is when this event was logged.
+2020-02-20 15:05:54,878 - root - INFO - is when this event was logged.
+2020-02-20 15:05:54,878 - root - INFO - is when this event was logged.
+2020-02-20 15:05:54,878 - root - INFO - is when this event was logged.
+2020-02-20 15:05:54,878 - root - INFO - is when this event was logged.
+2020-02-20 15:05:54,878 - root - INFO - is when this event was logged.
+INFO:root:An exception of type list.remove(x): x not in list occurred <class 'ValueError'>
+2020-02-20 15:05:54,879 - root - INFO - An exception of type list.remove(x): x not in list occurred <class 'ValueError'>
+2020-02-20 15:05:54,879 - root - INFO - An exception of type list.remove(x): x not in list occurred <class 'ValueError'>
+2020-02-20 15:05:54,879 - root - INFO - An exception of type list.remove(x): x not in list occurred <class 'ValueError'>
+2020-02-20 15:05:54,879 - root - INFO - An exception of type list.remove(x): x not in list occurred <class 'ValueError'>
+2020-02-20 15:05:54,879 - root - INFO - An exception of type list.remove(x): x not in list occurred <class 'ValueError'>
+2020-02-20 15:05:54,879 - root - INFO - An exception of type list.remove(x): x not in list occurred <class 'ValueError'>
+2020-02-20 15:05:54,879 - root - INFO - An exception of type list.remove(x): x not in list occurred <class 'ValueError'>
+WARNING:root:An exception of type list.remove(x): x not in list occurred <class 'ValueError'>
+2020-02-20 15:05:54,880 - root - WARNING - An exception of type list.remove(x): x not in list occurred <class 'ValueError'>
+2020-02-20 15:05:54,880 - root - WARNING - An exception of type list.remove(x): x not in list occurred <class 'ValueError'>
+2020-02-20 15:05:54,880 - root - WARNING - An exception of type list.remove(x): x not in list occurred <class 'ValueError'>
+2020-02-20 15:05:54,880 - root - WARNING - An exception of type list.remove(x): x not in list occurred <class 'ValueError'>
+2020-02-20 15:05:54,880 - root - WARNING - An exception of type list.remove(x): x not in list occurred <class 'ValueError'>
+2020-02-20 15:05:54,880 - root - WARNING - An exception of type list.remove(x): x not in list occurred <class 'ValueError'>
+2020-02-20 15:05:54,880 - root - WARNING - An exception of type list.remove(x): x not in list occurred <class 'ValueError'>
+INFO:root:is when this event was logged.
+2020-02-20 15:14:24,480 - root - INFO - is when this event was logged.
+2020-02-20 15:14:24,480 - root - INFO - is when this event was logged.
+2020-02-20 15:14:24,480 - root - INFO - is when this event was logged.
+2020-02-20 15:14:24,480 - root - INFO - is when this event was logged.
+2020-02-20 15:14:24,480 - root - INFO - is when this event was logged.
+2020-02-20 15:14:24,480 - root - INFO - is when this event was logged.
+2020-02-20 15:14:24,480 - root - INFO - is when this event was logged.
+2020-02-20 15:14:24,480 - root - INFO - is when this event was logged.
+INFO:root:An exception of type list.remove(x): x not in list occurred <class 'ValueError'>
+2020-02-20 15:14:24,482 - root - INFO - An exception of type list.remove(x): x not in list occurred <class 'ValueError'>
+2020-02-20 15:14:24,482 - root - INFO - An exception of type list.remove(x): x not in list occurred <class 'ValueError'>
+2020-02-20 15:14:24,482 - root - INFO - An exception of type list.remove(x): x not in list occurred <class 'ValueError'>
+2020-02-20 15:14:24,482 - root - INFO - An exception of type list.remove(x): x not in list occurred <class 'ValueError'>
+2020-02-20 15:14:24,482 - root - INFO - An exception of type list.remove(x): x not in list occurred <class 'ValueError'>
+2020-02-20 15:14:24,482 - root - INFO - An exception of type list.remove(x): x not in list occurred <class 'ValueError'>
+2020-02-20 15:14:24,482 - root - INFO - An exception of type list.remove(x): x not in list occurred <class 'ValueError'>
+2020-02-20 15:14:24,482 - root - INFO - An exception of type list.remove(x): x not in list occurred <class 'ValueError'>
+WARNING:root:An exception of type list.remove(x): x not in list occurred <class 'ValueError'>
+2020-02-20 15:14:24,484 - root - WARNING - An exception of type list.remove(x): x not in list occurred <class 'ValueError'>
+2020-02-20 15:14:24,484 - root - WARNING - An exception of type list.remove(x): x not in list occurred <class 'ValueError'>
+2020-02-20 15:14:24,484 - root - WARNING - An exception of type list.remove(x): x not in list occurred <class 'ValueError'>
+2020-02-20 15:14:24,484 - root - WARNING - An exception of type list.remove(x): x not in list occurred <class 'ValueError'>
+2020-02-20 15:14:24,484 - root - WARNING - An exception of type list.remove(x): x not in list occurred <class 'ValueError'>
+2020-02-20 15:14:24,484 - root - WARNING - An exception of type list.remove(x): x not in list occurred <class 'ValueError'>
+2020-02-20 15:14:24,484 - root - WARNING - An exception of type list.remove(x): x not in list occurred <class 'ValueError'>
+2020-02-20 15:14:24,484 - root - WARNING - An exception of type list.remove(x): x not in list occurred <class 'ValueError'>
+INFO:root:is when this event was logged.
+2020-02-20 15:18:22,333 - root - INFO - is when this event was logged.
+2020-02-20 15:18:22,333 - root - INFO - is when this event was logged.
+2020-02-20 15:18:22,333 - root - INFO - is when this event was logged.
+2020-02-20 15:18:22,333 - root - INFO - is when this event was logged.
+2020-02-20 15:18:22,333 - root - INFO - is when this event was logged.
+2020-02-20 15:18:22,333 - root - INFO - is when this event was logged.
+2020-02-20 15:18:22,333 - root - INFO - is when this event was logged.
+2020-02-20 15:18:22,333 - root - INFO - is when this event was logged.
+2020-02-20 15:18:22,333 - root - INFO - is when this event was logged.
+INFO:root:An exception of type list.remove(x): x not in list occurred <class 'ValueError'>
+2020-02-20 15:18:22,335 - root - INFO - An exception of type list.remove(x): x not in list occurred <class 'ValueError'>
+2020-02-20 15:18:22,335 - root - INFO - An exception of type list.remove(x): x not in list occurred <class 'ValueError'>
+2020-02-20 15:18:22,335 - root - INFO - An exception of type list.remove(x): x not in list occurred <class 'ValueError'>
+2020-02-20 15:18:22,335 - root - INFO - An exception of type list.remove(x): x not in list occurred <class 'ValueError'>
+2020-02-20 15:18:22,335 - root - INFO - An exception of type list.remove(x): x not in list occurred <class 'ValueError'>
+2020-02-20 15:18:22,335 - root - INFO - An exception of type list.remove(x): x not in list occurred <class 'ValueError'>
+2020-02-20 15:18:22,335 - root - INFO - An exception of type list.remove(x): x not in list occurred <class 'ValueError'>
+2020-02-20 15:18:22,335 - root - INFO - An exception of type list.remove(x): x not in list occurred <class 'ValueError'>
+2020-02-20 15:18:22,335 - root - INFO - An exception of type list.remove(x): x not in list occurred <class 'ValueError'>
+WARNING:root:An exception of type list.remove(x): x not in list occurred <class 'ValueError'>
+2020-02-20 15:18:22,336 - root - WARNING - An exception of type list.remove(x): x not in list occurred <class 'ValueError'>
+2020-02-20 15:18:22,336 - root - WARNING - An exception of type list.remove(x): x not in list occurred <class 'ValueError'>
+2020-02-20 15:18:22,336 - root - WARNING - An exception of type list.remove(x): x not in list occurred <class 'ValueError'>
+2020-02-20 15:18:22,336 - root - WARNING - An exception of type list.remove(x): x not in list occurred <class 'ValueError'>
+2020-02-20 15:18:22,336 - root - WARNING - An exception of type list.remove(x): x not in list occurred <class 'ValueError'>
+2020-02-20 15:18:22,336 - root - WARNING - An exception of type list.remove(x): x not in list occurred <class 'ValueError'>
+2020-02-20 15:18:22,336 - root - WARNING - An exception of type list.remove(x): x not in list occurred <class 'ValueError'>
+2020-02-20 15:18:22,336 - root - WARNING - An exception of type list.remove(x): x not in list occurred <class 'ValueError'>
+2020-02-20 15:18:22,336 - root - WARNING - An exception of type list.remove(x): x not in list occurred <class 'ValueError'>
