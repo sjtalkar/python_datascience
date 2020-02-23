@@ -6,11 +6,28 @@ try:
     image=Image.open("readonly/msi_recruitment.gif")
 except:
     print("This file readonly/msi_recruitment.gif cannot be found")
-
-    
+#Highly important for manipulations that the image is to be in RGB
 image=image.convert('RGB')
-#Get a context or a drawing canvas
 
+def change_rgb(new_image, channel, intensity):
+    width, height = new_image.size 
+    mult_red = 1
+    mult_green = 1
+    mult_blue = 1
+    if channel == 0:
+       mult_red =  intensity
+    elif channel == 1:
+       mult_green =  intensity
+    else:
+       mult_blue =  intensity
+    print(" Multipliers are {} {} {} and intensity = {} ".format(mult_red, mult_green, mult_blue, intensity) )
+    #The image has to be RGB for getpixel and putpixel to work 
+    for x in range(width):
+        for y in range(height):
+            red, green, blue = new_image.getpixel((x, y))
+            new_image.putpixel((x, y), (int(red * mult_red), int(green * mult_green), int(blue * mult_blue), 255) )
+    return new_image
+    
 #Load a font
 font = ImageFont.truetype('readonly/fanwood-webfont.ttf', 40)
                          
@@ -21,17 +38,26 @@ width_text,height_text = font.getsize(text)
 width_text = image.width
 print("Width of text : {} Height of text: {}".format(width_text, height_text))
 
-# build a list of 9 images which have different brightnesses
-#color_hue=ImageEnhance.Brightness(image)
+# build a list of 9 images which have different channel and intensity
 images=[]
-for i in range(1, 10):
-    images.append(image)
-    
+channel_num = 0
+intensity = 0.1
+for i in range(3):
+  for j in range(3):
+         new_image = image.copy()
+         images.append(change_rgb(new_image, channel_num, intensity))
+         #display(new_image)
+         intensity = intensity + 0.4
+  intensity = 0.1
+  channel_num = channel_num + 1
+
+print("Length of images : {}".format(len(images)))    
+
 #create a contact sheet from different brightnesses
 first_image=images[0]
 contact_sheet=PIL.Image.new(first_image.mode, (first_image.width*3,first_image.height*3+height_text*3))
 draw = ImageDraw.Draw(contact_sheet)
-print(type(draw))
+#print(type(draw))
 
 
 ##############################################################################################################
@@ -46,18 +72,18 @@ intensity = 0.1
 for i in range(3):
     for j in range(3):
         #draw white text on black background
-        print("Rectangle drawn at x= {}, y= {}, bottom_right X = {} bottom_right height = {}".format(x, y, x+ image.width,y+height_text))
+        #print("Rectangle drawn at x= {}, y= {}, bottom_right X = {} bottom_right height = {}".format(x, y, x+ image.width,y+height_text))
         text = "channel: "+ str(channel_num) + "intensity: " + str(intensity)
         draw.rectangle(((x, y), (x+image.width, y+height_text)), fill='black')
         draw.text((x, y), text, fill='white', font=font)
         x = x + image.width
         intensity = intensity + 0.4
-        print("updated x= {}, intensity = {}".format(x, intensity))
+        #print("updated x= {}, intensity = {}".format(x, intensity))
     x=0
+    y = y + height_text + image.height
     intensity = 0.1
     channel_num = channel_num + 1
-    y = y + height_text + image.height
-    print("updated y= {}, intensity = {} channel_num = {}".format(x, intensity, channel_num)) 
+    #print("updated y= {}, intensity = {} channel_num = {}".format(x, intensity, channel_num)) 
 
 ##############################################################################################################
 
