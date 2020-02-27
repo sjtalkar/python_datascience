@@ -51,7 +51,7 @@ for i in range(3):
   intensity = 0.1
   channel_num = channel_num + 1
 
-print("Length of images : {}".format(len(images)))    
+#print("Length of images : {}".format(len(images)))    
 
 #create a contact sheet from different brightnesses
 first_image=images[0]
@@ -63,7 +63,7 @@ draw = ImageDraw.Draw(contact_sheet)
 ##############################################################################################################
 #Capture the width and height of the contact sheet
 width_contact_sheet, height_contact_sheet = contact_sheet.size
-print(width_contact_sheet, height_contact_sheet)
+#print(width_contact_sheet, height_contact_sheet)
                          
 #Set the co-ordinates of the first text image
 x, y = (0, image.height)
