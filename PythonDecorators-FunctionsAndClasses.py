@@ -65,3 +65,25 @@ def display_info(name, age):
     print('display_info ran with arguments ({}, {})'.format(name, age))
 
 display_info('Tom', 22)
+
+class decorator_class(object):
+    def __init__ (self, execFunction):
+        self.execFunction = execFunction
+        
+    def __call__(self, *args, **kwargs):
+        print('call method executed this function')
+        return self.execFunction(*args, **kwargs)
+
+@decorator_class
+def display_info(name, age):
+    print ('display function ran with arguments {} and {}'.format(name, age))
+ 
+    
+@decorator_class
+def display():
+    print ('display function ran')
+         
+
+display()
+
+display_info('Simi', 50)
