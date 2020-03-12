@@ -1,6 +1,8 @@
 from bs4 import BeautifulSoup
 import requests
 
+#################################My PROJECT -- EXTRACTING URLS #######################################################################################
+######################################################################################################################################################
 
 #with open("C:\PYTHONDATASCIENCE\CDCData.html") as fileRef:
 #    soup = BeautifulSoup(fileRef,'lxml')
@@ -8,28 +10,26 @@ import requests
 
 source = requests.get("https://www.cdc.gov/coronavirus/2019-ncov/travelers/index.html").text
 soup = BeautifulSoup(source,'lxml')
-soup.prettify()
+#print(soup.prettify())
 
-canvas = soup.find('div')
-type(canvas)
+removeTag = ['path']
+#Clean up all path tags
 
+for tag in soup.find_all(True):
+    if tag.name.lower() in removeTag:
+       # removeTag tags are removed in their entirety
+       tag.extract()
 
-#type(soup)
-#soup.prettify()
+tagNameList = [tag.name for tag in soup.findAll(True)]
+tagNameList.sort()
+print("Now the tags are {}".format(set(tagNameList)))
+print()
 
-tagList = [tag.name for tag in soup.findAll(True)]
-
-#help(tagList)
-tagList.sort()
-tagSet = set(tagList)
-tagSet
-
-#allcanvasDiv = soup.find_all('div', {"id":"skipmenu"})
-#allcanvasDiv
-
-certainDiv = soup.find_all('div',class_ = ['mapboxgl-canvas-container', 'mapboxgl-interactive', 'mapboxgl-touch-drag-pan', 'mapboxgl-touch-zoom-rotate'])
-certainDiv
-
+findWhat = ['a', 'img']
+getImages = [image for image in soup.find_all(findWhat, href=True)]
+    
+for image in getImages:
+    print("URL for link is: {}".format(image['href']))   
 ###########################################################################################################################################################
 ###################################SCRAPING WITH REGEX#####################################################################################################
 
