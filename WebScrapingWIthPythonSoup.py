@@ -1,6 +1,11 @@
 from bs4 import BeautifulSoup
 import requests
 
+source = requests.get("https://www.cdc.gov/coronavirus/2019-ncov/travelers/index.html")
+print(source.ok)
+#httpbin.org\
+
+print (source.url)
 #################################My PROJECT -- EXTRACTING URLS #######################################################################################
 ######################################################################################################################################################
 
