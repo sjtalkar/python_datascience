@@ -1,4 +1,5 @@
-# python_datascience
+# Data Cleaning and Interpretation using Pandas 
+*     Intriduction to data science in Python Coursera (U OF Michigan)
 
 Cleaning data and running TTest
 
