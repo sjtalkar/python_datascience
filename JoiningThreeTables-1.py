@@ -290,35 +290,6 @@ answer_ten()
 
 def answer_eleven():
     Top15 = answer_one()
-    Top15['EstimatePopulation'] = Top15['Energy Supply'].divide(Top15['Energy Supply per Capita'], fill_value=0)
-
-    ContinentDict  = {'China':'Asia', 
-                  'United States':'North America', 
-                  'Japan':'Asia', 
-                  'United Kingdom':'Europe', 
-                  'Russian Federation':'Europe', 
-                  'Canada':'North America', 
-                  'Germany':'Europe', 
-                  'India':'Asia',
-                  'France':'Europe', 
-                  'South Korea':'Asia', 
-                  'Italy':'Europe', 
-                  'Spain':'Europe', 
-                  'Iran':'Asia',
-                  'Australia':'Australia', 
-                  'Brazil':'South America'}
-    
-
-    continent_df = pd.DataFrame(list(ContinentDict.items()),columns = ['Country','Continent']) 
-    continent_df.set_index('Country', inplace= True, drop=True)
-    new_Top15 = pd.merge(Top15, continent_df, how='inner', left_index=True, right_index = True)
-    return new_Top15
-
-answer_eleven()
-
-
-def answer_eleven():
-    Top15 = answer_one()
     Top15['EstimatedPopulation'] = Top15['Energy Supply'].divide(Top15['Energy Supply per Capita'], fill_value=0)
 
     ContinentDict  = {'China':'Asia', 
@@ -344,9 +315,63 @@ def answer_eleven():
     
     new_Top15 = new_Top15[['Continent', 'EstimatedPopulation']]
 
-    group_df = new_Top15.groupby('Continent').agg(['size','min', 'max', 'std'])
+    group_df = new_Top15.groupby('Continent').agg(['size','sum', 'mean', 'std'])
 
-    
+#    return  new_Top15.groupby('Continent')
     return group_df  
 
+
 answer_eleven()
+# catch = answer_eleven()
+# catch
+
+# for continent, df in catch:
+#    print (df.std())  -- when there is only one country STDDEV = NaN
+
+def answer_thirteen():
+    Top15 = answer_one()
+    Top15['EstimatedPopulation'] = Top15['Energy Supply'].divide(Top15['Energy Supply per Capita'], fill_value=0)
+
+    Top15['FormattedValue'] = Top15['EstimatedPopulation'].apply(lambda x: "{:,}".format(x))
+    
+    return  Top15['FormattedValue']
+
+answer_thirteen()
+
+
+def answer_twelve():
+    Top15 = answer_one()
+    Top15['RenewableBin'] = pd.cut(Top15['% Renewable'], 5)
+      
+
+    ContinentDict  = {'China':'Asia', 
+                  'United States':'North America', 
+                  'Japan':'Asia', 
+                  'United Kingdom':'Europe', 
+                  'Russian Federation':'Europe', 
+                  'Canada':'North America', 
+                  'Germany':'Europe', 
+                  'India':'Asia',
+                  'France':'Europe', 
+                  'South Korea':'Asia', 
+                  'Italy':'Europe', 
+                  'Spain':'Europe', 
+                  'Iran':'Asia',
+                  'Australia':'Australia', 
+                  'Brazil':'South America'}
+    
+
+    continent_df = pd.DataFrame(list(ContinentDict.items()),columns = ['Country','Continent']) 
+    continent_df.set_index('Country', inplace= True, drop=True)
+   
+
+    new_Top15 = pd.merge(Top15, continent_df, how='inner', left_index=True, right_index = True)
+    new_Top15 = new_Top15[['Continent', '% Renewable', 'RenewableBin']]
+    
+    group_df = new_Top15.groupby(['Continent', 'RenewableBin']).agg(['count'])
+    #group_df = new_Top15.groupby( 'RenewableBin').agg(['size'])
+    
+    return group_df
+
+
+answer_twelve()

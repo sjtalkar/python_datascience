@@ -243,3 +243,108 @@ def answer_one():
 
 answer_one()
 
+
+import pandas as pd
+
+from collections import defaultdict
+
+state_town_dict = defaultdict(list)
+state_town_tuple_list = []
+
+state_town_tuple_list = []
+with open("university_towns.txt") as fref:
+    for line in fref:
+        lineWithoutSquare = line.split("[")[0].strip()
+        if ":" in lineWithoutSquare and not ("(") in lineWithoutSquare:
+            continue
+        else:
+            if not ("(") in lineWithoutSquare:
+                state = lineWithoutSquare
+            else:
+                univTown = (
+                    lineWithoutSquare.split(" (")[0].strip().split(",")[0].strip()
+                )
+                state_town_dict[state].append(univTown)
+                state_town_tuple_list.append((state, univTown))
+
+state_univtown_df = pd.DataFrame(state_town_tuple_list, columns=["State", "RegionName"])
+state_univtown_df
+
+
+def get_recession_start():
+    """Returns the year and quarter of the recession start time as a 
+    string value in a format such as 2005q3"""
+    #     From Bureau of Economic Analysis, US Department of Commerce, the GDP over time of the United States in current dollars
+    # (use the chained value in 2009 dollars), in quarterly intervals, in the file gdplev.xls.
+    #     For this assignment, only look at GDP data from the first quarter of 2000 onward.
+    GDP_qtr = pd.read_excel("gdplev.xls", skiprows=5)
+    GDP_qtr = GDP_qtr.dropna(axis=0, how="all").dropna(axis=1, how="all").iloc[:, 3:]
+    GDP_qtr.rename(
+        columns={
+            GDP_qtr.columns[0]: "YearQuarters",
+            GDP_qtr.columns[1]: "GDP(in Billions)",
+            GDP_qtr.columns[2]: "GDP(in Billions of chained 2009)",
+        },
+        inplace=True,
+    )
+
+    GDP_qtr = GDP_qtr[212:]
+    GDP_qtr
+    return GDP_qtr
+
+
+get_recession_start().tail()
+
+
+def get_recession_start():
+    """Returns the year and quarter of the recession start time as a 
+    string value in a format such as 2005q3"""
+
+    #  A recession is defined as starting with two consecutive quarters of GDP decline, and ending with two consecutive quarters of GDP growth.
+
+    #     From Bureau of Economic Analysis, US Department of Commerce, the GDP over time of the United States in current dollars
+    # (use the chained value in 2009 dollars), in quarterly intervals, in the file gdplev.xls.
+    #     For this assignment, only look at GDP data from the first quarter of 2000 onward.
+    for i, row in GDP_qtr.iterrows():
+
+        #         print (i+2, i+ 1, i)
+        #         print ( GDP_qtr.loc[i+2, 'GDP(in Billions of chained 2009)'])
+
+        if (
+            GDP_qtr.loc[i + 2, "GDP(in Billions of chained 2009)"]
+            < GDP_qtr.loc[i + 1, "GDP(in Billions of chained 2009)"]
+        ) & (
+            GDP_qtr.loc[i + 1, "GDP(in Billions of chained 2009)"]
+            < GDP_qtr.loc[i, "GDP(in Billions of chained 2009)"]
+        ):
+            return i
+
+    return "No recession"
+
+
+catch = get_recession_start()
+catch  # 247
+
+print(
+    GDP_qtr.loc[247, "GDP(in Billions of chained 2009)"],
+    GDP_qtr.loc[248, "GDP(in Billions of chained 2009)"],
+    GDP_qtr.loc[249, "GDP(in Billions of chained 2009)"],
+)
+
+
+####################################################################################
+GDP_year = pd.read_excel("gdplev.xls", skiprows=5)
+GDP_year = GDP_year.dropna(axis=1, how="all").iloc[:, :3].dropna(axis=0, how="all")
+
+GDP_year.rename(
+    columns={
+        GDP_year.columns[0]: "Year",
+        GDP_year.columns[1]: "GDP(in Billions)",
+        GDP_year.columns[1]: "GDP(in Billions of chained 2009)",
+    },
+    inplace=True,
+)
+
+GDP_year["Year"] = GDP_year["Year"].astype(int)
+
+GDP_year.head()
