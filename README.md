@@ -15,10 +15,10 @@
 
 * Reads from a text, CSV and excel spreadsheet with their unique data cleanup challenges 
   * Text
-    **  Hierarchically presented data with state followed by university towns to be converted to state, city tuples
-    **  The states and the towns have to be extracted from a string that includes names of colleges and additional information
+    * Hierarchically presented data with state followed by university towns to be converted to state, city tuples
+    * The states and the towns have to be extracted from a string that includes names of colleges and additional information
   * Excel
-    **  Header and footers to be eliminated along with columns for annual GDP to retain only quarterly GDP
+    * Header and footers to be eliminated along with columns for annual GDP to retain only quarterly GDP
 
 * Using Map to replace abbreviations with State names
 * Manipulation of columns and indexes as arrays independent of data
