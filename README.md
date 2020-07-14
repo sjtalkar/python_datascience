@@ -8,7 +8,7 @@
 #### Assignment builds skills in these key areas: 
 
 * Jupyter Notebook : 
-  * Advantages is that code reads like a document : Having markdown and code segments in separate cells and so commenting can be inline and yet does not distaract
+  * Advantage is that code reads like a document : Having markdown and code segments in separate cells and so commenting can be inline and yet does not distract
   * Requirements can be specified in detail in a markdown section
   * Can add extensions for auto complete and function details such as Hinterland
   * Output is visible and stored below each cell run
