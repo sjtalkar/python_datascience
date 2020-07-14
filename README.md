@@ -21,7 +21,7 @@
     Header and footers to be eliminated along with columns for annual GDP to retain only quarterly GDP
 
 * Using Map to replace abbreviations with State names
-* Manipulation of columns and indexes as independent of data arrays
+* Manipulation of columns and indexes as arrays independent of data
 * Converting column names to quarterly periods so that a quarterly mean can be derived with a one statement resample call
   temp_zillow = temp_zillow[columns_we_need].resample('QS',axis=1).mean()
 * Selection of columns based on  chronological order 
