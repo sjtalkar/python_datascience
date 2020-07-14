@@ -6,10 +6,11 @@
 
 
 #### Assignment builds skills in these key areas: 
+
 * Jupyter Notebook : 
-  * Advantages having markdown and code segments and so commenting can be inline without adding any distaraction
-  * Requirements can be specified in detail ina markdown section
-  * Python syntax and Time series functions can be inferred through extension that can be added for auto complete and function details
+  * Advantages is that code reads like a document : Having markdown and code segments in separate cells and so commenting can be inline and yet does not distaract
+  * Requirements can be specified in detail in a markdown section
+  * Can add extensions for auto complete and function details such as Hinterland
   * Output is visible and stored below each cell run
 
 * Reads from a text, CSV and excel spreadsheet with their unique data cleanup challenges 
@@ -24,9 +25,9 @@
 * Converting column names to quarterly periods so that a quarterly mean can be derived with a one statement resample call
   temp_zillow = temp_zillow[columns_we_need].resample('QS',axis=1).mean()
 * Selection of columns based on  chronological order 
-* Replacing dates into their respective quarters so that colun names reflect quarters
+* Replacing dates into their respective quarters so that column names reflect quarters
 * Adding additional columns using DataFrame.assign
-* Use of () to create Pandorable code in Jupyter notebook
+* Use of () to create Pandorable code in Jupyter notebook, usage of assign, query....
 * Using Left join between two dataframes
 
 #### Three checks I perform after reading in the data:
@@ -44,8 +45,6 @@ To get sense of number of rows and columns
 ## Implementing Python programs for DataScience course application
 
 The files of interest in this project are the ones that set up the tools that can be repeatedly used in datascience
-
-The file ImageAndTextAndColorTines.Py was developed as an exercise to create a collage of images canvas with varying hues
 
 The file WebScrapingWithPythonSoup.py utilizes requests library to fetch a requested URL, parses the HTML using BeautifulSoup and extracts HTML elements out of web pages
 
