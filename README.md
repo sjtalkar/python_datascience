@@ -1,38 +1,50 @@
 # Data Cleaning and Interpretation using Pandas 
-*     Introduction to data science in Python Coursera (U OF Michigan)
-
-Cleaning data and running TTest
-
-The program StatisticsTTest.py performs a T Test for a ratio comparing drop in housing prices in university towns as opposed ot non-university towns
-
-Assignment 4 - Hypothesis Testing
-This assignment requires more individual learning than previous assignments - you are encouraged to check out the pandas documentation to find functions or methods you might not have used yet, or ask questions on Stack Overflow and tag them as pandas and python related. And of course, the discussion forums are open for interaction with your peers and the course staff.
-
-Definitions:
-
-A quarter is a specific three month period, Q1 is January through March, Q2 is April through June, Q3 is July through September, Q4 is October through December.
-A recession is defined as starting with two consecutive quarters of GDP decline, and ending with two consecutive quarters of GDP growth.
-A recession bottom is the quarter within a recession which had the lowest GDP.
-A university town is a city which has a high percentage of university students compared to the total population of the city.
-Hypothesis: University towns have their mean housing prices less effected by recessions. Run a t-test to compare the ratio of the mean price of houses in university towns the quarter before the recession starts compared to the recession bottom. (price_ratio=quarter_before_recession/recession_bottom)
-
-The following data files are available for this assignment:
-
-From the Zillow research data site there is housing data for the United States. In particular the datafile for all homes at a city level, City_Zhvi_AllHomes.csv, has median home sale prices at a fine grained level.
-From the Wikipedia page on college towns is a list of university towns in the United States which has been copy and pasted into the file university_towns.txt.
-From Bureau of Economic Analysis, US Department of Commerce, the GDP over time of the United States in current dollars (use the chained value in 2009 dollars), in quarterly intervals, in the file gdplev.xls. For this assignment, only look at GDP data from the first quarter of 2000 onward.
-Each function in this assignment below is worth 10%, with the exception of run_ttest(), which is worth 50%.
+### University of Michigan Introduction to Data Science in Python
 
 
+######  [Jupyter notebook for Housing price drop comparison during one recession period: HousingPricesUniversityTownComparison.ipynb](https://github.com/sjtalkar/DataCleaningAndTTest)
 
 
+#### Assignment builds skills in these key areas: 
+
+* Jupyter Notebook : 
+  * Advantage is that code reads like a document : Having markdown and code segments in separate cells and so commenting can be inline and yet does not distract
+  * Requirements can be specified in detail in a markdown section
+  * Can add extensions for auto complete and function details such as Hinterland
+  * Output is visible and stored below each cell run
+
+* Reads from a text, CSV and excel spreadsheet with their unique data cleanup challenges 
+  * Text
+    * Hierarchically presented data with state followed by university towns to be converted to state, city tuples
+    * The states and the towns have to be extracted from a string that includes names of colleges and additional information
+  * Excel
+    * Header and footers to be eliminated along with columns for annual GDP to retain only quarterly GDP
+
+* Using Map to replace abbreviations with State names
+* Manipulation of columns and indexes as arrays independent of data
+* Converting column names to quarterly periods so that a quarterly mean can be derived with a one statement resample call
+  temp_zillow = temp_zillow[columns_we_need].resample('QS',axis=1).mean()
+* Selection of columns based on  chronological order 
+* Replacing dates into their respective quarters so that column names reflect quarters
+* Adding additional columns using DataFrame.assign
+* Use of () to create Pandorable code in Jupyter notebook, usage of assign, query....
+* Using Left join between two dataframes
+
+#### Three checks I perform after reading in the data:
+To eliminate headers
+.head()
+
+To eliminate grand totals and additional footers
+.tail()
+
+To get sense of number of rows and columns
+.shape 
 
 
-Implementing Python programs for DataScience course application
+# Other programs in this repository are smaller projects from other Coursera courses :
+## Implementing Python programs for DataScience course application
 
 The files of interest in this project are the ones that set up the tools that can be repeatedly used in datascience
-
-The file ImageAndTextAndColorTines.Py was developed as an exercise to create a collage of images canvas with varying hues
 
 The file WebScrapingWithPythonSoup.py utilizes requests library to fetch a requested URL, parses the HTML using BeautifulSoup and extracts HTML elements out of web pages
 
