@@ -2,7 +2,7 @@
 ### University of Michigan Introduction to Data Science in Python
 
 
-######  [Jupyter notebook for Housing price drop comparison during one recession period: HousingPricesUniversityTownComparison.ipynb](https://github.com/sjtalkar/python_datascience)
+######  [Jupyter notebook for Housing price drop comparison during one recession period: HousingPricesUniversityTownComparison.ipynb](https://github.com/sjtalkar/DataCleaningAndTTest)
 
 
 #### Assignment builds skills in these key areas: 
