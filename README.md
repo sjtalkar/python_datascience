@@ -41,6 +41,14 @@ To get sense of number of rows and columns
 .shape 
 
 
+# An ongoing project I am working on is tracking worldwide COVID data from the PDF printed out by WHO
+[Pandas working of WHO covid PDF data](https://github.com/sjtalkar/ComparisonStudyPowerBIAndPandas)
+
+[This project follows Gil Raviv's bog on finding insights into worldwide Covid data.](https://datachant.com/2020/07/16/import-who-covid-19-data-from-pdf/?mc_cid=548415d80c&mc_eid=11642bb66a)
+
+
+
+
 # Other programs in this repository are smaller projects from other Coursera courses :
 ## Implementing Python programs for DataScience course application
 
