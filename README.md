@@ -4,8 +4,12 @@
 
 
 
-<div class="alert alert-block alert-info">
+
 ######  [Jupyter notebook for Housing price drop comparison during one recession period: HousingPricesUniversityTownComparison.ipynb](https://github.com/sjtalkar/DataCleaningAndTTest)
+
+
+<div class="alert alert-block alert-info">
+ testing
 </div>
 
 #### Assignment builds skills in these key areas: 
