@@ -7,13 +7,21 @@
   You can learn more about expected usage of this approach in the [Jupyter notebook for Housing price drop comparison during one recession period](https://github.com/sjtalkar/DataCleaningAndTTest)
 </details>
 
+<div class="panel panel-info">
+**Note**
+{: .panel-heading}
+<div class="panel-body">
 
+NOTE DESCRIPTION
+
+</div>
+</div>
 
 
 # Data Cleaning and Interpretation using Pandas 
 ### University of Michigan Introduction to Data Science in Python
 ### University of California Berkeley : Foundations of Data Science: Inferential thinking by resampling
-{: .alert .alert-info}
+
 
 
 ######  [Jupyter notebook for Housing price drop comparison during one recession period: HousingPricesUniversityTownComparison.ipynb](https://github.com/sjtalkar/DataCleaningAndTTest)
