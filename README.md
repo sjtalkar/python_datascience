@@ -13,7 +13,7 @@
 # Data Cleaning and Interpretation using Pandas 
 ### University of Michigan Introduction to Data Science in Python
 ### University of California Berkeley : Foundations of Data Science: Inferential thinking by resampling
-
+{: .alert .alert-info}
 
 
 ######  [Jupyter notebook for Housing price drop comparison during one recession period: HousingPricesUniversityTownComparison.ipynb](https://github.com/sjtalkar/DataCleaningAndTTest)
