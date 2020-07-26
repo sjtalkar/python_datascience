@@ -2,15 +2,14 @@
 
 <details>
   <summary markdown="span">Assignments completed for courses listed here</summary>
-      1. University of Michigan Introduction to Data Science in Python
-      2. University of California Berkeley : Foundations of Data Science: Inferential thinking by resampling
+      <li>1. University of Michigan Introduction to Data Science in Python</li>
+      <li>2. University of California Berkeley : Foundations of Data Science: Inferential thinking by resampling</li>
 </details>
 
 
 ###  [Jupyter notebook for Housing price drop comparison during one recession period: HousingPricesUniversityTownComparison.ipynb](https://github.com/sjtalkar/DataCleaningAndTTest)
 ###  [Jupyter notebook Template for all future datacleaning projects: TemplateFileForDataCleaning.ipynb](https://github.com/sjtalkar/StartHereTemplates/blob/master/TemplateFileForDataCleaning.ipynb)
-###  [Jupyter notebook for visualizations such as barplots and interactivity using widgets and animation: CustomVisualization.ipynb]
-(https://github.com/sjtalkar/VisualizationUsingMatplotlib/blob/master/CustomVisualization.ipynb)
+###  [Jupyter notebook for visualizations such as barplots and interactivity using widgets and animation: CustomVisualization.ipynb ](https://github.com/sjtalkar/VisualizationUsingMatplotlib/blob/master/CustomVisualization.ipynb)
 
 
 #### Assignment builds skills in these key areas: 
