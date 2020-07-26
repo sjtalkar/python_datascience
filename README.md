@@ -1,15 +1,20 @@
+
+<details>
+  <summary markdown="span">List of projects and their links</summary>
+
+  This is the detailed text.
+
+  You can learn more about expected usage of this approach in the [Jupyter notebook for Housing price drop comparison during one recession period](https://github.com/sjtalkar/DataCleaningAndTTest)
+</details>
+
+
+
+
 # Data Cleaning and Interpretation using Pandas 
 ### University of Michigan Introduction to Data Science in Python
 ### University of California Berkeley : Foundations of Data Science: Inferential thinking by resampling
 
-<details>
-<summary markdown="span">First level collapsible item</summary>
-**Lorem ipsum dolor sit amet...**
-<details>
-<summary markdown="span">Second level collapsible item</summary>
-*Sed ut perspiciatis unde omnis iste natus...*
-</details>
-</details>
+
 
 ######  [Jupyter notebook for Housing price drop comparison during one recession period: HousingPricesUniversityTownComparison.ipynb](https://github.com/sjtalkar/DataCleaningAndTTest)
 
