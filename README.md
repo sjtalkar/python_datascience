@@ -2,7 +2,14 @@
 ### University of Michigan Introduction to Data Science in Python
 ### University of California Berkeley : Foundations of Data Science: Inferential thinking by resampling
 
-
+<details>
+<summary markdown="span">First level collapsible item</summary>
+**Lorem ipsum dolor sit amet...**
+<details>
+<summary markdown="span">Second level collapsible item</summary>
+*Sed ut perspiciatis unde omnis iste natus...*
+</details>
+</details>
 
 ######  [Jupyter notebook for Housing price drop comparison during one recession period: HousingPricesUniversityTownComparison.ipynb](https://github.com/sjtalkar/DataCleaningAndTTest)
 
@@ -42,15 +49,11 @@ To eliminate grand totals and additional footers
 To get sense of number of rows and columns
 .shape 
 
-<div class="panel panel-info">
+
 # An ongoing project I am working on is tracking worldwide COVID data from the PDF printed out by WHO
-{: .panel-heading}
-<div class="panel-body">
 [Pandas working of WHO covid PDF data](https://github.com/sjtalkar/ComparisonStudyPowerBIAndPandas)
 
 [This project follows Gil Raviv's bog on finding insights into worldwide Covid data.](https://datachant.com/2020/07/16/import-who-covid-19-data-from-pdf/?mc_cid=548415d80c&mc_eid=11642bb66a)
-</div>
-</div>
 
 
 # Other programs in this repository are smaller projects from other Coursera courses :
