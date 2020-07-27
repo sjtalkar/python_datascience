@@ -6,6 +6,12 @@
       <li>2. University of California Berkeley : Foundations of Data Science: Inferential thinking by resampling</li>
 </details>
 
+<details>
+  <summary markdown="span">Jupyter Notebooks with Code and further information</summary>
+      <li><a href = 'https://github.com/sjtalkar/DataCleaningAndTTest'>1. University of Michigan Introduction to Data Science in Python</a></li>
+      <li>2. University of California Berkeley : Foundations of Data Science: Inferential thinking by resampling</li>
+</details>
+
 
 ###  [Jupyter notebook for Housing price drop comparison during one recession period: HousingPricesUniversityTownComparison.ipynb](https://github.com/sjtalkar/DataCleaningAndTTest)
 ###  [Jupyter notebook Template for all future datacleaning projects: TemplateFileForDataCleaning.ipynb](https://github.com/sjtalkar/StartHereTemplates/blob/master/TemplateFileForDataCleaning.ipynb)
