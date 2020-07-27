@@ -20,6 +20,9 @@
   * Requirements can be specified in detail in a markdown section
   * Can add extensions for auto complete and function details such as Hinterland
   * Output is visible and stored below each cell run
+  * Markdown and HTML can both be used
+  * Images and videos can be uploaded
+  * Links to webpages cab be provided
 
 * Reads from a text, CSV and excel spreadsheet with their unique data cleanup challenges 
   * Text
