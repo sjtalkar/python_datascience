@@ -1,5 +1,21 @@
 # Data Cleaning and Interpretation using Pandas 
+<style>
+details > summary {
+  padding: 4px;
+  width: 200px;
+  background-color: #eeeeee;
+  border: none;
+  box-shadow: 1px 1px 2px #bbbbbb;
+  cursor: pointer;
+}
 
+details > p {
+  background-color: #eeeeee;
+  padding: 4px;
+  margin: 0;
+  box-shadow: 1px 1px 2px #bbbbbb;
+}
+</style>
 <details>
   <summary markdown="span">Courses listed here</summary>
       <li>1. University of Michigan Introduction to Data Science in Python</li>
@@ -7,9 +23,7 @@
 </details>
 
 <details>
-  <h2>
   <summary markdown="span">Jupyter Notebooks with Code and further information</summary>
-  </h2>  
         <li><a href = 'https://github.com/sjtalkar/StartHereTemplates/blob/master/TemplateFileForDataCleaning.ipynb'>1.Template for all future datacleaning projects: TemplateFileForDataCleaning.ipynb</a></li>
       <li><a href = 'https://github.com/sjtalkar/DataCleaningAndTTest'>2. Housing price drop comparison during one recession period: HousingPricesUniversityTownComparison.ipynb</a></li>
       <li><a href = 'https://github.com/sjtalkar/VisualizationUsingMatplotlib/blob/master/CustomVisualization.ipynb'>3. Visualizations such as barplots and interactivity using widgets and animation: CustomVisualization.ipynb</a></li>
