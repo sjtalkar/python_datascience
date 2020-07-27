@@ -3,6 +3,7 @@
   <summary markdown="span">List of courses taken</summary>
       <li>1. University of Michigan Introduction to Data Science in Python</li>
       <li>2. University of California Berkeley : Foundations of Data Science: Inferential thinking by resampling</li>
+      <li>3. Applied Text Mining in Python</li>
 </details>
 
 <h2>Jupyter Notebooks with Code and further information</h2>
