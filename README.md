@@ -1,15 +1,18 @@
 # Data Cleaning and Interpretation using Pandas 
 
 <details>
-  <summary markdown="span">Assignments completed for courses listed here</summary>
+  <summary markdown="span">Courses listed here</summary>
       <li>1. University of Michigan Introduction to Data Science in Python</li>
       <li>2. University of California Berkeley : Foundations of Data Science: Inferential thinking by resampling</li>
 </details>
 
 <details>
-  <summary markdown="span">Jupyter Notebooks with Code and further information</summary>
-      <li><a href = 'https://github.com/sjtalkar/DataCleaningAndTTest'>1. University of Michigan Introduction to Data Science in Python</a></li>
-      <li>2. University of California Berkeley : Foundations of Data Science: Inferential thinking by resampling</li>
+  <summary markdown="span"><h2>Jupyter Notebooks with Code and further information</h2></summary>
+        <li><a href = 'https://github.com/sjtalkar/StartHereTemplates/blob/master/TemplateFileForDataCleaning.ipynb'>2.Template for all future datacleaning projects: TemplateFileForDataCleaning.ipynb</a></li>
+  
+      <li><a href = 'https://github.com/sjtalkar/DataCleaningAndTTest'>2. Housing price drop comparison during one recession period: HousingPricesUniversityTownComparison.ipynb</a></li>
+
+      <li><a href = 'https://github.com/sjtalkar/VisualizationUsingMatplotlib/blob/master/CustomVisualization.ipynb'>3. Visualizations such as barplots and interactivity using widgets and animation: CustomVisualization.ipynb</a></li>
 </details>
 
 
