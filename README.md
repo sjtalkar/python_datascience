@@ -10,8 +10,8 @@
         <li><a href = 'https://github.com/sjtalkar/ComparisonStudyPowerBIAndPandas/blob/master/UnpivotNestedTable.ipynb'>1.How to clean up and unpivot data having multi-level column header:UnpivotNestedTable.ipynb 
 <h2>Jupyter Notebooks with Code and further information</h2>
         <li><a href = 'https://github.com/sjtalkar/StartHereTemplates/blob/master/TemplateFileForDataCleaning.ipynb'>2.Template for all future datacleaning projects: TemplateFileForDataCleaning.ipynb</a></li>
-      <li><a href = 'https://github.com/sjtalkar/DataCleaningAndTTest'>2. Housing price drop comparison during one recession period: HousingPricesUniversityTownComparison.ipynb</a></li>
-      <li><a href = 'https://github.com/sjtalkar/VisualizationUsingMatplotlib/blob/master/CustomVisualization.ipynb'>3. Visualizations such as barplots and interactivity using widgets and animation: CustomVisualization.ipynb</a></li>
+      <li><a href = 'https://github.com/sjtalkar/DataCleaningAndTTest'>3. Housing price drop comparison during one recession period: HousingPricesUniversityTownComparison.ipynb</a></li>
+      <li><a href = 'https://github.com/sjtalkar/VisualizationUsingMatplotlib/blob/master/CustomVisualization.ipynb'>4. Visualizations such as barplots and interactivity using widgets and animation: CustomVisualization.ipynb</a></li>
 
 
 
